@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 62.5%;
+	font-family: 'Lucida Grande', Helvetica, sans-serif;
+	background: #1F5FCF;
+	color: #999;
+	padding: 20px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+tr {
+	vertical-align: top;
+}
+
+.post {
+	width: 500px;
+}
+/*ACCUEIL---------------------------------------*/
+#menu{
+	width: 100%;
+	position: fixed;
+	display: flex;
+}
+span{
+	color: #1F5FCF;
+}
+h1{
+	color: black;
+	font-size: 40px;
+}
+#cercle{
+	position: absolute;
+	height: 900px;
+	width: 1000px;
+	border-radius: 50%;
+	background-color: white;
+	top: -150px;
+	margin-left: -500px;
+	background-image: url("../img/background.jpg");
+	background-size: cover;
+}
+
+#cercle2{
+	position: absolute;
+	height: 900px;
+	width: 1000px;
+	border-radius: 50%;
+	background-color: white;
+	margin-left: -570px;
+	top: -150px;
+}
+/*MENU DROPDOWN-------------------------------*/
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    border: 1px solid black;
+}
+/*PRESENTATION------------------------*/
+#pres p, h2 {
+	width: 40%;
+	margin-left: 45%;
+	color: white;
+}
+#pres h2{
+	margin-top: 15%;
+	font-size: 50px;
+}
