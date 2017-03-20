@@ -1,0 +1,54 @@
+#chrisdach{
+  background-color: #00A1D2;
+}
+h1{
+  text-align: center;
+  color: #FFF;
+}
+.jumbotron{
+  margin-top: 5px;
+  background-color: #FFF;
+}
+.jumbotron a{
+  color: #2E60BB;
+}
+#carousel-example-generic{
+  width: 80%;
+  margin: 10px auto 0;
+  padding: 2px;
+}
+#carousel-example-generic img{
+  width: 70%;
+  height: 50%;
+  margin: auto;
+}
+#btnactu{
+  margin-top: 1%;
+}
+#btnactu input{
+  color: #2E60BB;
+}
+@media screen and (max-width:600px) {
+  #carousel-example-generic{
+    width: 90%;
+  }
+}
+@media screen and (max-width:320px) {
+  #btnactu input{
+    display: block;
+    margin: auto;
+  }
+  .jumbotron{
+    width: 96%;
+    margin-left: 2%;
+  }
+}
+#toTop{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+  display: none;
+  color: #2E60BB;
+  outline: none;
+}
