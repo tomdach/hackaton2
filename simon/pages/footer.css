@@ -1,0 +1,25 @@
+*{
+  padding:0px;
+  margin:0px;
+}
+marquee{
+  border-collapse: collapse;
+}
+img{
+
+  height:100px;
+}
+.footer{
+  width:20%;
+  height:50px;
+  border:1px solid grey;
+  background-color: #1F5FCF;
+  color: white;
+  text-align:center;
+  margin-left: 60%;
+  border-radius: 20%;
+
+}
+p{
+  margin-top:10px;
+}
