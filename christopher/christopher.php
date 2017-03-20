@@ -15,7 +15,7 @@
   <body id="chrisdach">
     <div class="container-fluid">
       <div class="row">
-        <h1 id="test"></h1>
+        <h1>Actualités :</h1>
       </div>
     </div>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
