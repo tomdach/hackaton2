@@ -1,9 +1,8 @@
 
 <?php
-$cnx = mysqli_connect("localhost","root","vidal62","simplon") or
-die("error=".mysqli_connect_erno());
-session_start();
-$res1 = mysqli_query($cnx, "SELECT * FROM users ");
+include_once('connection.php');
+
+$res1 = mysqli_query($cnx, "SELECT * FROM users ORDER BY id  LIMIT 24");
 ?>
 
 
@@ -20,12 +19,21 @@ $res1 = mysqli_query($cnx, "SELECT * FROM users ");
   <body>
     <div class="banderol">
 </div>
+
+
+
+
+
 <h1 id="forum"></h1>
 
-<div id="tableau">
+<div id="tableau" class="col-md-12">
+
+    <div class="container-fluid">
+      <div class="row">
    <?php  while($data1 = mysqli_fetch_assoc($res1))
    {
      ?>
+     <div id="users"class="col-md-4">
        <?php
        /*if(@$data['id'])
        {*/
@@ -33,24 +41,27 @@ $res1 = mysqli_query($cnx, "SELECT * FROM users ");
        <?php
        /*}*/
        ?>
-<div id="users">
                <table>
                <thead>
                    <tr>
-                   <h3 style="text-align:center;">nom :</br><span><?= $data1['nom'];?></span></h3>
+                   <h3 style="text-align:center;">nom :<span><?= $data1['nom'];?></span></h3>
 
                    </tr>
                </thead>
                <tr>
-                    <p style="text-align:center;">prenom :</br><?= $data1['prenom'];?></p>
-                   <p style="text-align:center;"> <span>age :</br><?= $data1['age'];?></span></p>
-                    <p style="text-align:center;"> <span>develloppeur :</br><?= $data1['web'];?></span></p>
+                    <p style="text-align:center;">prenom :<?= $data1['prenom'];?></p>
+                   <p style="text-align:center;"> <span>age :<?= $data1['age'];?></span></p>
+                    <p style="text-align:center;"> <span>develloppeur :<?= $data1['web'];?></span></p>
                </tr>
            </table>
-       </div>
+
+</div>
       <?php
        }
        ?>
+        </div>
+</div>
+
 </div>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
