@@ -1,7 +1,6 @@
 <?php
-$cnx = mysqli_connect("localhost","root","vidal62","simplon") or
-die("error=".mysqli_connect_erno());
-session_start();
+include_once('connection.php');
+
 $nom = isset($_POST['nom'])?mysqli_real_escape_string($cnx,$_POST['nom']) :"" ;
 $age = isset($_POST['age'])?mysqli_real_escape_string($cnx,$_POST['age']) :"" ;
 $prenom= isset($_POST['prenom'])?mysqli_real_escape_string($cnx,$_POST['prenom']) :"";
@@ -15,7 +14,7 @@ $res = mysqli_query($cnx,"INSERT INTO users(nom,prenom,age,web) VALUES('$nom', '
 <html>
   <head>
     <meta charset="utf-8">
-    <title>map</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="chriscss/chris.css" media="screen" title="no title">
     <link rel="stylesheet" href="chriscss/bootstrap.min.css" media="screen" title="no title">
   </head>
@@ -46,19 +45,16 @@ $res = mysqli_query($cnx,"INSERT INTO users(nom,prenom,age,web) VALUES('$nom', '
             <div class="form-group">
               <label for="age">age</label>
               <input type="Number"class="form-control" id="age" name="age" placeholder="age">
-              <p class="help-block">Example block-level help text here.</p>
+
             </div>
             <div class="form-group">
               <label for="web">web</label>
               <input type="text"class="form-control" id="web" name="web" placeholder="developpeur">
-              <p class="help-block">Example block-level help text here.</p>
+
+
             </div>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox"> Check me out
-              </label>
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
+
+            <button type="submit" class="btn btn-default">Soumettre</button>
           </form>
           </div>
         <div class="col-md-6 ms-6 xs-6 ">
