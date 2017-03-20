@@ -33,6 +33,15 @@ $res = mysqli_query($cnx,"INSERT INTO users(nom,prenom,age,web) VALUES('$nom', '
       <div class="row">
         <div class="col-md-6 xs-6 ">
           <form id="contact"  enctype="multipart/form-data" action="chris.php" method="post">
+                    <?php function redir(){
+                      header("location:forum.php");
+
+                    }
+                    if($_SERVER['REQUEST_METHOD']=='POST')
+          {
+              redir();
+          }
+                  ?>
 
             <div class="form-group">
               <label for="nom">nom</label>
@@ -55,6 +64,7 @@ $res = mysqli_query($cnx,"INSERT INTO users(nom,prenom,age,web) VALUES('$nom', '
             </div>
 
             <button type="submit" class="btn btn-default">Soumettre</button>
+
           </form>
           </div>
         <div class="col-md-6 ms-6 xs-6 ">

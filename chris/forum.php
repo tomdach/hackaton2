@@ -6,6 +6,7 @@ $res1 = mysqli_query($cnx, "SELECT * FROM users ORDER BY id  LIMIT 24");
 ?>
 
 
+
 <!DOCTYPE html>
 <html>
   <head>
