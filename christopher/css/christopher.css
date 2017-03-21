@@ -1,6 +1,19 @@
 #chrisdach{
   background-color: #00A1D2;
 }
+#bodyFAQ{
+  background-color: #2E60BB;
+}
+#FAQ a{
+  color: #00A1D2;
+  cursor: pointer;
+}
+#FAQ a:hover{
+  text-decoration: none;
+}
+#FAQ p{
+  font-size: 20px;
+}
 h1{
   text-align: center;
   color: #FFF;
@@ -49,13 +62,22 @@ h1{
   right: 10px;
   text-decoration: none;
   display: none;
-  color: #2E60BB;
+  color: #FFF;
   outline: none;
 }
 #titleFAQ{
-  color: #000;
+  color: #00A1D2;
   text-decoration: underline;
 }
-#question1, #question2, #question3{
+.questions{
   cursor: pointer;
+  color: #00A1D2;
+  text-decoration: underline;
+}
+.reponses{
+  color: #FFF;
+}
+#UL li{
+  list-style-type: none;
+  font-size: 18px;
 }

@@ -91,4 +91,24 @@ $(function(){
   $("#question3").click(function(){
     $("#answer3").toggle();
   });
+  $("#answer4").hide();
+  $("#question4").click(function(){
+    $("#answer4").toggle();
+  });
+  $("#answer5").hide();
+  $("#question5").click(function(){
+    $("#answer5").toggle();
+  });
+  $("#answer6").hide();
+  $("#question6").click(function(){
+    $("#answer6").toggle();
+  });
+  $("#answer7").hide();
+  $("#question7").click(function(){
+    $("#answer7").toggle();
+  });
+  $("#answer8").hide();
+  $("#question8").click(function(){
+    $("#answer8").toggle();
+  });
 });
