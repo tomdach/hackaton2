@@ -52,3 +52,10 @@ h1{
   color: #2E60BB;
   outline: none;
 }
+#titleFAQ{
+  color: #000;
+  text-decoration: underline;
+}
+#question1, #question2, #question3{
+  cursor: pointer;
+}

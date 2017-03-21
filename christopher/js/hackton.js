@@ -10,6 +10,7 @@ $('#toTop').click(function() {
         scrollTop : 0
     }, 500);
 });
+// Page Actu
 $(function(){
     $("#ActuMar").hide();
     $("#March").click(function(){
@@ -75,4 +76,19 @@ $(function(){
         $("#ActuOct").fadeOut();
       });
     });
+});
+// Page FAQ
+$(function(){
+  $("#answer1").hide();
+  $("#question1").click(function(){
+    $("#answer1").toggle();
+  });
+  $("#answer2").hide();
+  $("#question2").click(function(){
+    $("#answer2").toggle();
+  });
+  $("#answer3").hide();
+  $("#question3").click(function(){
+    $("#answer3").toggle();
+  });
 });
