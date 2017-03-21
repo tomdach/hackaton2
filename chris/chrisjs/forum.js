@@ -1,5 +1,5 @@
 
-  var chaine = "bienvenue : ";
+  var chaine = "bienvenue sur le forum de la promo 2";
   var nb_car = chaine.length;
   var tableau = chaine.split("");
   texte = new Array;

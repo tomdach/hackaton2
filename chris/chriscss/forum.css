@@ -21,12 +21,12 @@ margin-top:50px;
 }
 .banderol{
   width:50%;
-  height:250px;
+  height:100px;
   background-image :url("../img/simplon.png") ;
   background-repeat: no-repeat;
   background-size: contain;
   position:relative;
-  margin-left:20%;
+  margin-left:38%;
 }
 #mess{
   color:#809dd3;
@@ -37,17 +37,41 @@ margin-top:50px;
   position:relative;
 }
 #users{
-  border:1px solid  #00a1d0;
 
+  width:20%;
+  margin-top:40px;
 
 
 }
 #tableau{
-  margin-top:30px;
-  width:100%;
+  margin-top:60px;
+  width:80%;
   height:480px;
+  border:1px solid #00a1d0;
+margin-left:5%;
 
+}
+#container{
+  margin-top:50px;
 
+}
+#message{
+  
+  width:75%;
+  height:190px;
+  margin-left:5%;
+  border-radius: 10px 10px 10px ;
+
+border-left:outset 5px black;
+  }
+#contact{
+  margin-top:10px;
+  width:80%;
+  height:200px;
+  border:outset 5px black;
+    border-radius:10px 10px 10px ;
+  margin-left:10%;
+  background-color: #00a1d0;
 
 
 }
