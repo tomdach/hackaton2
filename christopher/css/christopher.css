@@ -1,6 +1,19 @@
 #chrisdach{
   background-color: #00A1D2;
 }
+#bodyFAQ{
+  background-color: #2E60BB;
+}
+#FAQ a{
+  color: #00A1D2;
+  cursor: pointer;
+}
+#FAQ a:hover{
+  text-decoration: none;
+}
+#FAQ p{
+  font-size: 20px;
+}
 h1{
   text-align: center;
   color: #FFF;
@@ -14,7 +27,7 @@ h1{
 }
 #carousel-example-generic{
   width: 80%;
-  margin: 10px auto 0;
+  margin: 3% auto 0;
   padding: 2px;
 }
 #carousel-example-generic img{
@@ -23,7 +36,7 @@ h1{
   margin: auto;
 }
 #btnactu{
-  margin-top: 1%;
+  margin-top: 4%;
 }
 #btnactu input{
   color: #2E60BB;
@@ -49,6 +62,22 @@ h1{
   right: 10px;
   text-decoration: none;
   display: none;
-  color: #2E60BB;
+  color: #FFF;
   outline: none;
+}
+#titleFAQ{
+  color: #00A1D2;
+  text-decoration: underline;
+}
+.questions{
+  cursor: pointer;
+  color: #00A1D2;
+  text-decoration: underline;
+}
+.reponses{
+  color: #FFF;
+}
+#UL li{
+  list-style-type: none;
+  font-size: 18px;
 }
