@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/christopher.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="icon" href="http://boulogne.simplon.co/wp-content/uploads/2015/11/cropped-square-32x32.png">
     <title>Foire Aux Questions</title>
   </head>
+  <?php include_once("pages/navbarIndex.php") ;?>
   <body id="bodyFAQ">
     <h1 id="titleFAQ">Foire Aux Questions !</h1>
     <h2 style="text-align:center">Présentation Simplon :</h2>

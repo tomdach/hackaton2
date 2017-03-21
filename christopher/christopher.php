@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/christopher.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="icon" href="http://boulogne.simplon.co/wp-content/uploads/2015/11/cropped-square-32x32.png">
     <title>Actualités</title>
   </head>
+  <?php include_once("pages/navbarIndex.php") ;?>
   <body id="chrisdach">
     <div class="container-fluid">
       <div class="row">
