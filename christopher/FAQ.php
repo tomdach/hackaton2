@@ -18,7 +18,7 @@
         <p id="question2">2. Quelles sont les formations proposées ?</p>
         <p id="answer2">Plusieurs <a data-toggle="modal" data-target=".modalformation">formations</a> y sont dispensées dont celle en développement Web.</p>
         <p id="question3">3. Où est-implanté Simplon(.co) ?</p>
-        <p id="answer3">Fort de son succès, Simplon est international : les centres de formation se trouvent en <a data-toggle="modal" data-target=".modalfrance">France + La réunion</a> mais également en Afrique du Sud, Roumanie, Côte d'Ivoire & au Liban !</p>
+        <p id="answer3">Fort de son succès, Simplon est international : les centres de formation se trouvent en <a data-toggle="modal" data-target=".modalfrance">France + un en réunion</a> mais également en <a data-toggle="modal" data-target=".modalafrique">Afrique du Sud</a>, <a data-toggle="modal" data-target=".modalroumanie">Roumanie</a>, <a data-toggle="modal" data-target=".modalCI">Côte d'Ivoire</a> & au <a data-toggle="modal" data-target=".modalLiban">Liban</a> !</p>
       </div>
     </div>
     <div class="modal fade modalEK" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -56,6 +56,46 @@
           <img src="img/reunion.png" style="width:50%;margin-left:25%;margin-top:2%;">
           <p class="text-center">Localisation des centres de formation en France + Simplon réunion !</p>
           <a class="btn btn-primary text-center" href="http://simplon.co/ecosysteme/essaimage-simplon-co/#france" target="_blank" style="margin-left:40%;outline:none">En savoir +</a>
+          <a class="btn btn-danger text-center" href="#" data-dismiss="modal">Retour</a>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade modalafrique" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <img src="http://simplon.co/wp-content/uploads/2015/12/IMG_0712.jpg" style="height:70%;width:50%;margin-left:25%;margin-top:2%;">
+          <p class="text-center">Le SAP / Simplon Lab basé à Johannesburg !</p>
+          <a class="btn btn-primary text-center" href="http://simplon.co/ecosysteme/dans-le-monde/afrique-du-sud/" target="_blank" style="margin-left:40%;outline:none">En savoir +</a>
+          <a class="btn btn-danger text-center" href="#" data-dismiss="modal">Retour</a>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade modalroumanie" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <img src="http://simplon.co/wp-content/uploads/2016/02/SimplonRoumanie.jpg" style="height:70%;width:50%;margin-left:25%;margin-top:2%;">
+          <p class="text-center">Simplon basé à Cluj !</p>
+          <a class="btn btn-primary text-center" href="http://simplon.co/ecosysteme/dans-le-monde/roumanie" target="_blank" style="margin-left:40%;outline:none">En savoir +</a>
+          <a class="btn btn-danger text-center" href="#" data-dismiss="modal">Retour</a>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade modalCI" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <img src="http://simplon.co/wp-content/uploads/2015/12/logo-Final-BOOTCAMP.png" style="height:70%;width:50%;margin-left:25%;margin-top:2%;">
+          <p class="text-center">Simplon.CI basé à Bouaké !</p>
+          <a class="btn btn-primary text-center" href="http://simplon.co/ecosysteme/dans-le-monde/cote-divoire" target="_blank" style="margin-left:40%;outline:none">En savoir +</a>
+          <a class="btn btn-danger text-center" href="#" data-dismiss="modal">Retour</a>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade modalLiban" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <img src="http://simplon.co/wp-content/uploads/2017/01/IMG_20170119_162556_724.jpg" style="height:70%;width:50%;margin-left:25%;margin-top:2%;">
+          <p class="text-center">Simplon basé à Beyrouth au Liban !</p>
+          <a class="btn btn-primary text-center" href="http://simplon.co/ecosysteme/dans-le-monde/liban" target="_blank" style="margin-left:40%;outline:none">En savoir +</a>
           <a class="btn btn-danger text-center" href="#" data-dismiss="modal">Retour</a>
         </div>
       </div>
