@@ -11,7 +11,7 @@
     <title>Foire Aux Questions</title>
   </head>
   <?php include_once("pages/navbarIndex.php") ;?>
-  <body id="bodyFAQ">
+  <body>
     <h1 id="titleFAQ">Foire Aux Questions !</h1>
     <h2 style="text-align:center">Présentation Simplon :</h2>
     <div class="container-fluid" id="FAQ">
@@ -39,7 +39,7 @@
           - Etape 2 : Si vous êtes pré-sélectionné.e vous allez être convoqué.e à des entretiens individuels.<br>
           - Etape 3 : Vous saurez ensuite par mail si votre candidature a été retenue.<br>
           Plus de détatils : <a href="http://simplon.co/comment-candidater/">Comment candidater ?</a>.</p>
-          <p style="color:white;font-style:italic">Pour une FAQ plus complète : <a href="http://simplon.co/faq-candidatures/">Cliquez ici !</a></p>
+          <p style="color:#2E60BB;font-style:italic">Pour une FAQ plus complète : <a href="http://simplon.co/faq-candidatures/">Cliquez ici !</a></p>
       </div>
     </div>
     <div class="modal fade modalEK" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -137,7 +137,7 @@
         </div>
       </div>
     </div>
-    <a href="#" id="toTop" class="fa fa-chevron-up fa-2x"></a>
+    <a href="#" id="toTop" style="color:#2E60BB"class="fa fa-chevron-up fa-2x"></a>
     <script src="https://use.fontawesome.com/8d66db2fbe.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

@@ -1,9 +1,6 @@
 #chrisdach{
   background-color: #00A1D2;
 }
-#bodyFAQ{
-  background-color: #2E60BB;
-}
 #FAQ a{
   color: #00A1D2;
   cursor: pointer;
@@ -75,7 +72,7 @@ h1{
   text-decoration: underline;
 }
 .reponses{
-  color: #FFF;
+  color: #2E60BB;
 }
 #UL li{
   list-style-type: none;
