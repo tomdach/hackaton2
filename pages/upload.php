@@ -19,19 +19,19 @@ $lenPseudo = strlen($_POST['username']);
 if ($valPseudo) {
 	// header('location:contact.php');
 	$_SESSION["message"] = "Pseudo invalide";
-	header("location:");
+	header("location:inscription.php");
 } 
 
 elseif ($valDate == false) {
 	// header('location:contact.php');
 	$_SESSION["message"] = "Date invalide";
-	header("location:");
+	header("location:inscription.php");
 } 
 
 elseif ($valMail == false) {
 	// header('location:contact.php');
 	$_SESSION["message"] = "Mail invalide";
-	header("location:");
+	header("location:inscription.php");
 } elseif ($lenPseudo > 30) {
 	// header('location:contact.php');
 	$_SESSION["message"] = "Pseudo trop long";
@@ -51,11 +51,11 @@ $data1 = mysqli_fetch_assoc($res1);
 
 if (isset($data)) {
 	$_SESSION["message"] = "Username déjà utilisé";
-	header("location:admin.php");
+	// header("location:admin.php");
 }
 elseif (isset($data1)) {
 	$_SESSION["message"] = "Mail déjà enregistré";
-	header("location:admin.php");
+	// header("location:admin.php");
 }
 else{
 

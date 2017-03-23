@@ -81,34 +81,16 @@ session_start();
 <br>
 <form method="post" action="upload.php">
 
-	<input class="form-control" type="text" name="username" placeholder="Nom d'utilisateur"><br>
-	<input class="form-control" type="password" name="password1" placeholder="Mot de passe"><br>
-	<input class="form-control" type="password" name="password2" placeholder="Confirmer mot de passe"><br>
-	<input class="form-control" type="text" name="mail" placeholder="Mail"><br>
-	<input class="form-control" type="text" name="dateNaissance" placeholder="JJ/MM/AAAA"><br>
+	<input required class="form-control" type="text" name="username" placeholder="Nom d'utilisateur"><br>
+	<input required class="form-control" type="password" name="password1" placeholder="Mot de passe"><br>
+	<input required class="form-control" type="password" name="password2" placeholder="Confirmer mot de passe"><br>
+	<input required class="form-control" type="text" name="mail" placeholder="Mail"><br>
+	<input required class="form-control" type="text" name="dateNaissance" placeholder="JJ/MM/AAAA"><br>
 	<input class="btn" type="submit" name="inscription" value="S'inscrire">
 	
 </form>
 <?php echo "<br>".$_SESSION["message"]; $_SESSION["message"] = ""; ?>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </div>
     <div class="col-sm-2 sidenav fill">

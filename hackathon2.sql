@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost
--- Généré le :  Lun 20 Mars 2017 à 14:58
+-- Généré le :  Jeu 23 Mars 2017 à 14:11
 -- Version du serveur :  5.7.17-0ubuntu0.16.04.1
 -- Version de PHP :  7.0.15-0ubuntu0.16.04.4
 
@@ -29,7 +29,29 @@ SET time_zone = "+00:00";
 CREATE TABLE `articles` (
   `id` int(11) NOT NULL,
   `titre` text NOT NULL,
-  `texte` text NOT NULL
+  `texte` text NOT NULL,
+  `photo` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Contenu de la table `articles`
+--
+
+INSERT INTO `articles` (`id`, `titre`, `texte`, `photo`) VALUES
+(1, 'Article 1', 'Lorem ipsum', 'doge.jpeg');
+
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `commentaires`
+--
+
+CREATE TABLE `commentaires` (
+  `id` int(11) NOT NULL,
+  `username` tinytext NOT NULL,
+  `comment` text NOT NULL,
+  `datePost` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `article` tinytext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -55,7 +77,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`, `mail`, `dateNaiss`, `dateInscription`, `lastCo`, `nbrCom`, `connected`) VALUES
-(1, 'root', 'admin', 'mail@mail.fr', '01/01/1990', '2017-03-20 10:52:46', '2017-03-20 11:52:46', 0, 'non');
+(1, 'root', 'admin', 'admin@mail.com', '01/01/1995', '2017-03-23 12:40:58', '2017-03-23 13:40:58', 0, 'non');
 
 --
 -- Index pour les tables exportées
@@ -65,6 +87,12 @@ INSERT INTO `users` (`id`, `username`, `password`, `mail`, `dateNaiss`, `dateIns
 -- Index pour la table `articles`
 --
 ALTER TABLE `articles`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `commentaires`
+--
+ALTER TABLE `commentaires`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -81,6 +109,11 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT pour la table `articles`
 --
 ALTER TABLE `articles`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+--
+-- AUTO_INCREMENT pour la table `commentaires`
+--
+ALTER TABLE `commentaires`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT pour la table `users`

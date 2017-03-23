@@ -46,13 +46,7 @@ html, body{
 	max-height: 300px;
 	}
 
-.form-control{
-	width: 30vh; /* ? */
-}
 
-input{
-	width: 15vh; /* ? */
-}
 
 	form{
 		display: inline-block;
@@ -71,6 +65,11 @@ input{
 .form-control #texte{
   width: 600px;
 }
+
+.img-center{
+  margin: 0 auto;
+}
+
 
 @media (max-width: 767px){.fill{
   min-height: auto;

@@ -1,7 +1,16 @@
 <?php
 
 include_once("connexion.php");
+include_once("utils.php");
 session_start();
+
+$req = mysqli_query($cnx, "SELECT * FROM users WHERE id=1");
+$data = mysqli_fetch_assoc($req);
+
+if ($_SESSION["user"] != $data["username"]) {
+  header("location:../index.php");
+}
+
 
 ?>
 <!DOCTYPE html>
@@ -35,6 +44,16 @@ session_start();
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+      <li>
+        <?php 
+
+        $req = mysqli_query($cnx, "SELECT * FROM users WHERE id=1");
+        $data = mysqli_fetch_assoc($req);
+
+        if ($_SESSION["user"] == $data["username"]) {
+            echo "<a href=\"admin.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Admin</a>";
+        } ?>
+      </li>
         <li><?php
               if (isset($_SESSION["user"])) {
                 echo "<a href=\"profile.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Profile</a>";
@@ -65,27 +84,179 @@ session_start();
 <div class="container-fluid text-center fill">    
   <div class="row content">
     <div class="col-sm-2 sidenav fill">
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
-      <p><a href="#">Link</a></p>
+      <p><a href="admin.php?choix=publier">Publier un article</a></p>
+      <hr>
+      <p><a href="admin.php?choix=supprimerArticle">Supprimer un article</a></p>
+      <hr>
+      <p><a href="admin.php?choix=supprimerCommentaire">Supprimer un commentaire</a></p>
+      <hr>
+      <p><a href="admin.php?choix=gerer">Gérer les utilisateurs</a></p>
+      <hr>
     </div>
     <div class="col-sm-8 text-left"> 
-      <h1 class="text-center"><?php echo $_SESSION["user"]?></h1>
       <div class="text-center">
       </div>
+
+      <h1 class="text-center">Administration</h1>
 
 
 <div class="text-center form-group">
 <br>
 
-<form method="POST" action="post.php">
+<?php 
+if (!isset($_GET["choix"])) {
+  header("location:admin.php?choix=publier");
+}
+?>
+
+<?php if ($_GET["choix"] == "publier") {
+  echo '<form enctype="multipart/form-data" method="POST" action="post.php">
   <label>Titre</label><br>
   <input style="margin-left: 10vh;" class="form-control" type="text" name="titre" placeholder="Titre"><br>
   <label for="texte">Contenu</label><br>
-  <textarea style="height: 50vh; width: 50vh;" class="form-control" id="texte" name="texte" placeholder="Texte"></textarea><br>
+  <textarea style="height: 50vh; width: 50vh; resize: none;" class="form-control" id="texte" name="texte" placeholder="Texte"></textarea><br>
   <input style="margin-left: 10vh;" class="form-control" type="file" name="userfiles"><br>
   <input type="submit" name="poster" value="Valider">
 </form>
+';
+} elseif ($_GET["choix"] == "supprimerArticle") {
+  echo '<form method="post" action="delete.php">
+  <label>Id de l\'article</label><br>
+  <input class="form-control" type="text" name="selectionArticle"><br>
+  <input class="btn" type="submit" name="supprimerArticle">
+</form>';
+
+$resul = mysqli_query($cnx,"SELECT * FROM articles");
+            $result = mysqli_fetch_assoc($resul);
+            $fnbr = $result["id"];
+            $fnbr;
+
+            $rez = mysqli_query($cnx, "SELECT MAX(id) FROM articles");
+            $rezu = mysqli_fetch_assoc($rez);
+            $max = $rezu["MAX(id)"];
+            $max++;
+
+            for ($i=$fnbr; $i < $max; $i++) {
+            
+            $resu = mysqli_query($cnx,"SELECT * FROM articles WHERE id=".$i."");
+            $don = mysqli_fetch_assoc($resu);
+
+                echo '<div class="row">
+                        <h4>'.$don["titre"].' #'.$don["id"].'</h4>
+                        </div>
+                        ';
+            }
+
+} elseif ($_GET["choix"] == "supprimerCommentaire") {
+
+
+
+
+if (!isset($_SESSION["article"])) {
+  $_SESSION["dispSuppr"] = '<form action="delete.php" method="POST">
+  <label>Numéro de l\'article</label><br>
+  <input class="form-control" type="text" name="numArt"><br>
+  <input class="btn" type="submit" name="supNumArt">
+  </form>';
+}else{
+  $_SESSION["dispSuppr"] = '<form action="delete.php" method="POST">
+  <label>Numéro du commentaire</label><br>
+  <input class="form-control" type="text" name="numCom"><br>
+  <input class="btn" type="submit" name="supNumCom">
+  </form>';
+
+  
+
+
+}
+
+
+echo $_SESSION["dispSuppr"];
+
+
+if (isset($_SESSION["article"])) {
+
+  $resul = mysqli_query($cnx,"SELECT * FROM commentaires");
+            $result = mysqli_fetch_assoc($resul);
+            $fnbr = $result["id"];
+            $fnbr;
+
+            $rez = mysqli_query($cnx, "SELECT MAX(id) FROM commentaires");
+            $rezu = mysqli_fetch_assoc($rez);
+            $max = $rezu["MAX(id)"];
+            $max++;
+
+
+      for ($i= $fnbr; $i < $max; $i++) { 
+      
+      $req = mysqli_query($cnx, "SELECT * FROM commentaires WHERE id = '$i'");
+      $data = mysqli_fetch_assoc($req);
+
+      if ($data["article"] == $_SESSION["article"]) {
+        echo '
+        <div>
+        <p>'.$data["username"].' : '.$data["comment"].' #'.$data["id"].'</p>
+        </div>';
+      }
+        
+      
+
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+} elseif ($_GET["choix"] == "gerer") {
+
+
+echo '<form method="post" action="delete.php">
+  <label>Pseudo de l\'utilisateur</label><br>
+  <input class="form-control" type="text" name="pseudoDelete"><br>
+  <input class="btn " type="submit" name="supprUser">
+</form>';
+
+            $resul = mysqli_query($cnx,"SELECT * FROM users");
+            $result = mysqli_fetch_assoc($resul);
+            $fnbr = $result["id"];
+            $fnbr;
+
+            $rez = mysqli_query($cnx, "SELECT MAX(id) FROM users");
+            $rezu = mysqli_fetch_assoc($rez);
+            $max = $rezu["MAX(id)"];
+            $max++;
+
+            echo '<div style="margin-top: 30px;">';
+
+            for ($i=$fnbr; $i < $max; $i++) {
+            
+            $resu = mysqli_query($cnx,"SELECT * FROM users WHERE id=".$i."");
+            $data = mysqli_fetch_assoc($resu);
+
+                echo '<p>'.$data["username"].'</p>';
+            }
+
+            echo "</div>";
+
+            
+
+
+
+}
+
+
+
+?>
+
+
 
 
 
