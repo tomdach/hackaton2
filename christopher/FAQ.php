@@ -27,7 +27,6 @@ session_start();
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="../index.php">Home</a></li>
-        <li><a href="../simon/index.php">Présentation</a></li>
         <li><a href="actus.php">Actualités</a></li>
         <li><a href="../book.php">Book</a></li>
         <li><a href="FAQ.php">FAQ</a></li>
@@ -37,20 +36,20 @@ session_start();
       <ul class="nav navbar-nav navbar-right">
         <li><?php
               if (isset($_SESSION["user"])) {
-                echo "<a href=\"pages/profile.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Profile</a>";
+                echo "<a href=\"../pages/profile.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Profile</a>";
               }
               else{
-                echo "<a href=\"pages/inscription.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Sign In</a>";
+                echo "<a href=\"../pages/inscription.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Sign In</a>";
               }
             ?>
         </li>
         <li>
           <?php
             if (isset($_SESSION["user"])) {
-              echo "<a href=\"pages/logout.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Logout</a>";
+              echo "<a href=\"../pages/logout.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Logout</a>";
             }
             else{
-              echo "<a href=\"pages/pageConnexion.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Login</a>";
+              echo "<a href=\"../pages/pageConnexion.php\"><span class=\"glyphicon glyphicon-log-in\"></span> Login</a>";
             }
           ?>
         </li>
