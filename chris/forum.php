@@ -20,7 +20,24 @@ $res1 = mysqli_query($cnx, "SELECT * FROM users ORDER BY id  LIMIT 24");
   </head>
   <?php include_once("pages/navbarIndex.php");?>
   <body>
+
     <div class="banderol">
+</div>
+<div class="container-fluid">
+
+
+  <div class="row">
+    <div class="img">
+       <div class="col-md-6 ">
+         <img id="superimage"src="img/eco.jpg"height="200px"width="100%">
+       </div>
+       <div class="col-md-6">
+         <img id="superimage2" src="img/eco2.jpg"height="200px"width="100%"/>
+       </div>
+
+  </div>
+
+</div>
 </div>
 
 <h1 id="forum"></h1>
@@ -28,18 +45,25 @@ $res1 = mysqli_query($cnx, "SELECT * FROM users ORDER BY id  LIMIT 24");
 <div id ="container"class="container-fluid">
   <div class="row">
 
+  <div id="text" class="col-md-4 sm-4 xs-4">
 
+
+  <p id="tee"></p>
+
+  </div>
+
+<div  id="box" class="col-md-8 sm-8 xs-8">
    <?php  while($data1 = mysqli_fetch_assoc($res1))
    {
      ?>
-<div id="contact"class="col-md-10 sm-10 xs-10">
-     <div id="users"class="col-md-4 sm-4 xs-4">
+<div id="contact"class="col-md-8 sm-8 xs-8">
+     <div id="users"class="col-md-2 sm-2 xs-2">
 
 
-                   <h3 style="text-align:center;">nom : <span><?= $data1['nom'];?></span></h3>
+                   <h3 style="text-align:center;"><span><?= $data1['nom'];?></span></h3>
 
 
-                    <p style="text-align:center;">prenom : <?= $data1['prenom'];?></p>
+                    <p style="text-align:center;"><?= $data1['prenom'];?></p>
 
                   </div>
 
@@ -57,7 +81,7 @@ $res1 = mysqli_query($cnx, "SELECT * FROM users ORDER BY id  LIMIT 24");
                    <input type="submit" name="tsurgro"value='X'>
                  </form>
                  </div>
-                 </div>
+            </div>
                <?php
                /*}*/
                ?>
@@ -68,8 +92,12 @@ $res1 = mysqli_query($cnx, "SELECT * FROM users ORDER BY id  LIMIT 24");
        ?>
 
 
-
 </div>
+</div>
+</div>
+<footer><img src="img/simplon.png"width="300px height="30px";</footer>
+
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
       <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="chrisjs/bootstrap.min.js"></script>
