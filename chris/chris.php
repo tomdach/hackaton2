@@ -1,14 +1,16 @@
 <?php
 include_once('connection.php');
-include_once("pages/connexion.php");
+/*include_once("pages/connexion.php");*/
+
 $nom = isset($_POST['nom'])?mysqli_real_escape_string($cnx,$_POST['nom']) :"" ;
 $age = isset($_POST['age'])?mysqli_real_escape_string($cnx,$_POST['age']) :"" ;
 $prenom= isset($_POST['prenom'])?mysqli_real_escape_string($cnx,$_POST['prenom']) :"";
 $message= isset($_POST['message'])?mysqli_real_escape_string($cnx,$_POST['message']) :"";
 $web= isset($_POST['web'])?mysqli_real_escape_string($cnx,$_POST['web']) :"";
+
 $res1 = mysqli_query($cnx, "SELECT * FROM users ");
 
-if(isset($_POST['chris']) && $nom && $age && $prenom && $message && $web )
+if($nom && $prenom && $message)
 $res = mysqli_query($cnx,"INSERT INTO users(nom,prenom,age,web,message) VALUES('$nom', '$prenom', '$age','$web','$message')");
 ?>
 
@@ -41,7 +43,7 @@ $res = mysqli_query($cnx,"INSERT INTO users(nom,prenom,age,web,message) VALUES('
         <div class="col-md-6 xs-6 ">
           <form id="contact"  enctype="multipart/form-data" action="chris.php" method="post">
                     <?php function redir(){
-                       header("location:forum.php");
+                      header("location:forum.php");
 
                     }
                     if($_SERVER['REQUEST_METHOD']=='POST')
@@ -51,14 +53,14 @@ $res = mysqli_query($cnx,"INSERT INTO users(nom,prenom,age,web,message) VALUES('
                   ?>
 
             <div class="form-group">
-              <label for="nom">nom:</label>
+              <label class="label"  for="nom">nom:</label>
               <input type="ext" class="form-control" id="nom" name="nom"placeholder="Nom">
             </div>
             <div class="form-group">
-              <label for="prenom">prenom:</label>
+              <label class="label"for="prenom">prenom:</label>
               <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prenom">
             </div>
-            <div class="form-group">
+          <!-- <div class="form-group">
               <label for="age">age:</label>
               <input type="Number"class="form-control" id="age" name="age" placeholder="age">
 
@@ -68,13 +70,14 @@ $res = mysqli_query($cnx,"INSERT INTO users(nom,prenom,age,web,message) VALUES('
               <input type="text"class="form-control" id="web" name="web" placeholder="developpeur">
 
 
-            </div>
+            </div>-->
+
             <div class="form-group">
-              <label for="web">message:</label>
-              <textarea  rows="2" cols="30" type="text"class="form-control" id="message" name="message" placeholder="message"></textarea>
+              <label class="label"for="web">message:</label>
+              <textarea  rows="8" cols="30" type="text"class="form-control" id="message" name="message" placeholder="message"></textarea>
 
             </div>
-            <input name="chris" type="submit" class="btn btn-default" value="Soumettre">
+            <input type="submit" class="btn btn-default" value="soumettre"/>
 
           </form>
           </div>
