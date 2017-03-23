@@ -29,7 +29,7 @@ session_start();
         <li class="active"><a href="../index.php">Home</a></li>
         <li><a href="actus.php">Actualités</a></li>
         <li><a href="FAQ.php">FAQ</a></li>
-        <li><a href="../chris/chris.php">Contact</a></li>
+        <li><a href="../chris/contact.php">Contact</a></li>
         <li><a href="../chris/forum.php">Forum</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
