@@ -8,6 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="css/thomas.css">
 
 
+
 </head>
 <body>
 
@@ -17,9 +18,380 @@
 		<!-- Début d'image -->
 <div class="focus pic" id="imagesD">
 	<img src="img/simplon.jpg">
+
+
+		 <div id="Remy" style="position: absolute; margin-top: 190px; margin-left: 35px;">
+			 <div class="cube1">
+    			<div class="cube-titre1">
+    				 <div style="background-color:#00A1D2; width: 200px; height: 200px; margin-left: 410px; margin-top: -165px;     border-radius: 20px;
+">
+
+    				 <h2>Rémy</h2>
+        				<h2>De Winne</h2>
+        					<br>
+        						<h5>Front</h5>
+    				 </div>
+   				 </div>      
+				</div>
+
+	
+
+		 </div>
+<!-- ############################################################################ -->
+
+	  <div class="cube" id="Benjamin" style="position: absolute; margin-top: 225px; margin-left: 15px; ">
+
+    <div class="cube-titre">
+        <div style="background-color: #00A1D2;  width: 200px; height: 200px; margin-left: 410px; margin-top: -200px;    border-radius: 20px;
+">
+        	<h2>Benjamin</h2>
+        	<h2>Caroux</h2>
+        	<br>
+        	<h5>Front</h5>
+        </div>
+    </div>      
+
+		 </div>
+
+<!-- ####################################################################################### -->
+
+	  <div id="Simon" style="position: absolute; font-size: 20px;margin-top: 210px; margin-left: 130px;">
+<div class="cubez">
+    <div class="cube-titrez">
+     <div  style="background-color: #00A1D2;  width: 200px; height: 200px; margin-left:362px; margin-top: -185px;    border-radius: 20px;
+">
+        <h2>Simon</h2>
+        <h2>Ellart</h2>
+        <br>
+        <h5>front</h5>
+     </div>
+    		</div>      
+		</div>	
+	 </div>
+
+<!-- ####################################################################################### -->
+	 <div id="Christian" style="position: absolute; font-size: 20px;margin-top: 220px; margin-left: 225px;">
+	 	<div class="cubee">
+    		<div class="cube-titree">
+    		 <div style="background-color: #00A1D2;  width: 200px; height: 200px; margin-left:315px;    border-radius: 20px; margin-top: -195px;">
+    		 <h2>Christian</h2>
+        <h2>Vidal</h2>
+        <br>
+        <h5>front</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 </div>
+
+
+<!-- ####################################################################################### -->
+	 <div id="Alexis" style="position: absolute; font-size: 20px;margin-top: 200px; margin-left: 180px;">
+
+	 			<div class="cuber">
+    		<div class="cube-titrer">
+    		 <div style="background-color: #00A1D2;  width: 200px; height: 200px; margin-left:337px; margin-top: -175px;border-radius: 20px;">
+    		 <h2>Alexis</h2>
+        	 <h2>Merlier</h2>
+        	 <br>
+        	 <h5>front</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 </div>
+
+<!-- ####################################################################################### -->
+
+ <div id="Quentin" style="position: absolute; font-size: 20px;margin-top: 195px; margin-left: 305px;">
+
+ 					<div class="cubet">
+    		<div class="cube-titret">
+    		 <div style="background-color: #00A1D2;  width: 200px; height: 200px; margin-left:275px; border-radius:20px; margin-top: -170px;">
+    		 <h2>Quentin</h2>
+        	 <h2>Volant</h2>
+        	 <br>
+        	 <h5>Full-Stack</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+
+	 </div>
+
+
+<!-- ####################################################################################### -->
+
+ <div id="François" style="position: absolute; font-size: 20px;margin-top: 215px; margin-left: 340px;">
+
+ 					<div class="cubey">
+    		<div class="cube-titrey">
+    		 <div style="background-color: #00A1D2;  width: 200px; height: 200px; margin-left:257px; margin-top: -190px;border-radius: 20px;">
+    		 <h2>Francois</h2>
+        	 <h3>ANDRZEJEWSKI</h3>
+        	 <br>
+        	 <h5>Back</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 </div>
+
+<!-- ####################################################################################### -->
+
+ <div id="Christopher" style="position: absolute; font-size: 20px;margin-top: 235px; margin-left: 400px;">
+		<div class="cubeu">
+    		<div class="cube-titreu">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:227px;border-radius: 20px; margin-top: -210px;">
+    		 <h2>Christopher</h2>
+        	 <h3>Dachicourt</h3>
+        	 <br>
+        	 <h5>Front</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 </div>
+
+<!-- ####################################################################################### -->
+
+ <div id="Victor" style="position: absolute; font-size: 20px;margin-top: 220px; margin-left: 535px;">
+				<div class="cubei">
+    		<div class="cube-titrei">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:160px; margin-top: -195px;     border-radius: 20px;
+">
+    		 <h2>Victor</h2>
+        	 <h3>Marié</h3>
+        	 <br>
+        	 <h5>Full-Stack</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>	 </div>
+
+<!-- ####################################################################################### -->
+
+ <div id="Jonathan" style="position: absolute; font-size: 20px;margin-top: 210px; margin-left: 600px;">
+	<div class="cubeo">
+    		<div class="cube-titreo">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:127px; margin-top: -185px;    border-radius: 20px;
+">
+    		 <h2>Jonathan</h2>
+        	 <h3>Lamirault</h3>
+        	 <br>
+        	 <h5>Full-Stack</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 </div>
+
+
+<!-- ####################################################################################### -->
+
+ <div id="Jérémy" style="position: absolute; font-size: 20px;margin-top: 195px; margin-left: -150px;">
+				<div class="cubep">
+    		<div class="cube-titrep">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:502px; margin-top: -170px;    border-radius: 20px;
+">
+    	    		 <h2>Jérémy</h2>
+        	 <h3>Le Prunenec</h3>
+        	 <br>
+        	 <h5>Front</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 </div>
+<!-- ####################################################################################### -->
+
+ <div id="Giovani" style="position: absolute; font-size: 20px;margin-top: 209px; margin-left: -52px;">
+	<div class="cubeq">
+    		<div class="cube-titreq">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:453px; margin-top: -184px;    border-radius: 20px;
+">
+    		 <h2>Giovanie</h2>
+        	 <h3>Boutillier</h3>
+        	 <br>
+        	 <h5>Front</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 </div>
+<!-- ####################################################################################### -->
+
+ <div id="Aurélie" style="position: absolute; font-size: 20px;margin-top: 230px; margin-left: -125px;">
+ 			<div class="cubed">
+    		<div class="cube-titred">
+    		 <div style="background-color:#00A1D2; width:200px; height:200px; margin-left:490px; margin-top: -205px;    border-radius: 20px;
+">
+    		 <h2>Aurélie</h2>
+        	 <h3>Slodczyk</h3>
+        	 <br>
+        	 <h5>Full-Stack</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 </div>
+<!-- ####################################################################################### -->
+
+ <div id="Aledrorian" style="position: absolute; font-size: 20px;margin-top: 210px; margin-left: -210px;">
+ 		<div class="cubes">
+    		<div class="cube-titres">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:532px; margin-top: -185px;    border-radius: 20px;
+">
+    		 <h2>Alédorian</h2>
+        	 <h3>Legrand</h3>
+        	 <br>
+        	 <h5>Back</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 </div>
+<!-- ####################################################################################### -->
+
+ <div id="Thomas" style="position: absolute; font-size: 20px;margin-top: 213px; margin-left: -270px;">
+<div class="cubef">
+    		<div class="cube-titref">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:562px; margin-top: -188px;    border-radius: 20px;
+">
+    		 <h2>Thomas</h2>
+        	 <h3>Dachicourt</h3>
+        	 <br>
+        	 <h5>Front</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 </div>
+<!-- ####################################################################################### -->
+
+ <div id="Germain" style="position: absolute; font-size: 20px;margin-top: 185px; margin-left: -290px;">
+ 		<div class="cubeg">
+    		<div class="cube-titreg">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:572px; margin-top: -160px;    border-radius: 20px;
+">
+    		 <h2>Germain</h2>
+        	 <h3>Déliance</h3>
+        	 <br>
+        	 <h5>Front</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 </div>
+<!-- ####################################################################################### -->
+
+ <div id="remi" style="position: absolute; font-size: 20px;margin-top: 210px; margin-left: -325px;">
+ 			<div class="cubeh">
+    		<div class="cube-titreh">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:590px; margin-top: -185px;    border-radius: 20px;
+">
+    		 <h2>Rémi</h2>
+        	 <h3>De Graw</h3>
+        	 <br>
+        	 <h5>Front</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 </div>
+<!-- ####################################################################################### -->
+
+ <div id="ThomasP" style="position: absolute; font-size: 20px;margin-top: 205px; margin-left: -415px;">
+ 				<div class="cubej">
+    		<div class="cube-titrej">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:635px; margin-top: -180px;    border-radius: 20px;
+">
+    		 <h2>Thomas</h2>
+        	 <h3>Provain</h3>
+        	 <br>
+        	 <h5>Front</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+
+	 </div>
+<!-- ####################################################################################### -->
+
+ <div id="Grégory" style="position: absolute; font-size: 20px;margin-top: 210px; margin-left: -465px;">
+ 		 		<div class="cubek">
+    		<div class="cube-titrek">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:660px; margin-top: -185px;    border-radius: 20px;
+">
+    		 <h2>Grégory</h2>
+        	 <h3>Mathieux</h3>
+        	 <br>
+        	 <h5>Front</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+
+	 </div> 
+<!-- ####################################################################################### -->
+
+ <div id="Ludovic" style="position: absolute; font-size: 20px;margin-top: 195px; margin-left: -500px;">
+ 		<div class="cubel">
+    		<div class="cube-titrel">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:677px; margin-top: -170px;    border-radius: 20px;
+">
+    		 <h2>Ludovic</h2>
+        	 <h3>Soret</h3>
+        	 <br>
+        	 <h5>Back</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+
+	 </div>
+<!-- ####################################################################################### -->
+
+ <div id="hélène" style="position: absolute; font-size: 20px;margin-top: 230px; margin-left: -585px;">
+
+ 			<div class="cubem">
+    		<div class="cube-titrem">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:720px; margin-top: -205px;    border-radius: 20px;
+">
+    		 <h2>Hélène</h2>
+        	 <h3>Papin</h3>
+        	 <br>
+        	 <h5>Formatrice</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+
+	 </div>
+<!-- ####################################################################################### -->
+
+	 <div id="Antoine" style="position: absolute; font-size: 20px;margin-top: 220px; margin-left: -650px;">
+
+	 		<div class="cubew">
+    		<div class="cube-titrew">
+    		 <div style="background-color:#00A1D2;  width: 200px; height: 200px; margin-left:752px; margin-top: -195px;    border-radius: 20px;
+">
+    		 <h2>Antoine</h2>
+        	 <h3>Sotty</h3>
+        	 <br>
+        	 <h5>Full-Stack</h5>
+      			  
+      		</div>
+    		</div>      
+		</div>
+	 	</div>
 </div>
 <!-- Fin d'image -->
-
+<!-- <div class="cube">
+    <div class="cube-titre">
+        Projet numéro : 1
+    </div>      
+</div> -->
 
 <!-- debut persoone -->
 
@@ -171,7 +543,6 @@
 
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div> 
@@ -206,7 +577,7 @@
         <h4 class="modal-title">BOILLOT Frédéric</h4>
       </div>
       <div class="modal-body">
-       <p>22 Ans Full-Stack</p>
+       <p>31 Ans Full-Stack</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -224,10 +595,10 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" >ss</h4>
+        <h4 class="modal-title" >Caroux Bajamain</h4>
       </div>
       <div class="modal-body">
-       <p>hey</p>
+       <p>23 Ans Front</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -250,7 +621,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -271,7 +641,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -291,7 +660,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -312,7 +680,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -332,7 +699,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -346,14 +712,13 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">ss</h4>
+        <h4 class="modal-title">Ellart Simon</h4>
       </div>
       <div class="modal-body">
-       <p>sdrftgyhuio</p>
+       <p>22 Ans Front</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -373,7 +738,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -394,7 +758,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -414,7 +777,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -434,7 +796,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -446,14 +807,13 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" >e</h4>
+        <h4 class="modal-title" >Merlier Alexis</h4>
       </div>
       <div class="modal-body">
-       <p>e</p>
+       <p>23 ans Front</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -465,14 +825,13 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" >ss</h4>
+        <h4 class="modal-title" >Jérémy Le Prunenec</h4>
       </div>
       <div class="modal-body">
-       <p>f</p>
+       <p>24ans Front</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -492,7 +851,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -512,7 +870,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -532,7 +889,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -552,7 +908,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -571,7 +926,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -591,7 +945,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -612,7 +965,6 @@
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -626,14 +978,13 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">BOUTTILLER</h4>
+        <h4 class="modal-title">Boutiller Giovani</h4>
       </div>
       <div class="modal-body">
        <p>24 Ans FRONT</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>
@@ -641,23 +992,6 @@
 
 <!-- ############################################################################################# -->
 
- <div class="modal fade" id="myModal24" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" >ss</h4>
-      </div>
-      <div class="modal-body">
-       <p>p</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div> 
-</div> 
 
 
 
