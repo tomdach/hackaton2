@@ -29,6 +29,7 @@ session_start();
         <li class="active"><a href="../index.php">Home</a></li>
         <li><a href="../simon/index.php">Présentation</a></li>
         <li><a href="actus.php">Actualités</a></li>
+        <li><a href="../book.php">Book</a></li>
         <li><a href="FAQ.php">FAQ</a></li>
         <li><a href="../chris/contact.php">Contact</a></li>
         <li><a href="../chris/forum.php">Forum</a></li>
@@ -358,6 +359,7 @@ session_start();
         </div>
       </div>
     </div>
+    <footer><img src="img/simplon.png"width="30%" height="100px"></footer>
     <a href="#" id="toTop" class="fa fa-chevron-up fa-2x"></a>
     <script src="https://use.fontawesome.com/8d66db2fbe.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
