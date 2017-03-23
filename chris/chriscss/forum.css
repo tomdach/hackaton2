@@ -17,7 +17,7 @@
 }
 
 #forum{
-
+margin-top:50px;
   text-align: center;
   color:#809dd3;
   position:relative;
@@ -88,8 +88,9 @@ font-size: 35px;
   -moz-box-shadow:  0 0 0 2px black, 0 0 0 4px white, 0 0 0 6px #00a1d0;
   box-shadow:  0 0 0 2px black, 0 0 0 4px white, 0 0 0 6px #00a1d0;
   background-color:#00a1d0;
-  height:560px;
+  height:400px;
   overflow-y: scroll;
+  margin-bottom:50px;
 
 }
 footer{
