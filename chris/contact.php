@@ -41,7 +41,7 @@ $res = mysqli_query($cnx,"INSERT INTO users(nom,prenom,age,web,message) VALUES('
 
       <div class="row">
         <div class="col-md-6 xs-6 ">
-          <form id="contact"  enctype="multipart/form-data" action="chris.php" method="post">
+          <form id="contact"  enctype="multipart/form-data" action="contact.php" method="post">
                     <?php function redir(){
                       header("location:forum.php");
 
@@ -53,11 +53,11 @@ $res = mysqli_query($cnx,"INSERT INTO users(nom,prenom,age,web,message) VALUES('
                   ?>
 
             <div class="form-group">
-              <label class="label"  for="nom">nom:</label>
+              <label class="label"  for="nom"></label>
               <input type="ext" class="form-control" id="nom" name="nom"placeholder="Nom">
             </div>
             <div class="form-group">
-              <label class="label"for="prenom">prenom:</label>
+              <label class="label"for="prenom"></label>
               <input type="text" class="form-control" id="prenom" name="prenom" placeholder="Prenom">
             </div>
           <!-- <div class="form-group">
@@ -73,11 +73,11 @@ $res = mysqli_query($cnx,"INSERT INTO users(nom,prenom,age,web,message) VALUES('
             </div>-->
 
             <div class="form-group">
-              <label class="label"for="web">message:</label>
+              <label class="label"for="web"></label>
               <textarea  rows="8" cols="30" type="text"class="form-control" id="message" name="message" placeholder="message"></textarea>
 
             </div>
-            <input type="submit" class="btn btn-default" value="soumettre"/>
+            <input id="button" type="submit" class="btn btn-default" value="soumettre"/>
 
           </form>
           </div>
@@ -89,7 +89,7 @@ $res = mysqli_query($cnx,"INSERT INTO users(nom,prenom,age,web,message) VALUES('
       </div>
       </div>
 
-
+<footer><img src="img/simplon.png"width="30%" height="100px";</footer>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
