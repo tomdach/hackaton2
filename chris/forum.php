@@ -95,7 +95,7 @@ $res1 = mysqli_query($cnx, "SELECT * FROM users ORDER BY id  LIMIT 24");
 </div>
 </div>
 </div>
-<footer><img src="img/simplon.png"width="300px height="30px";</footer>
+<footer><img src="img/simplon.png"width="30%" height="30px";</footer>
 
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
