@@ -27,6 +27,7 @@ session_start();
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="../index.php">Home</a></li>
+        <li><a href="../simon/index.php">Présentation</a></li>
         <li><a href="actus.php">Actualités</a></li>
         <li><a href="FAQ.php">FAQ</a></li>
         <li><a href="../chris/contact.php">Contact</a></li>
