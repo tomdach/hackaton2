@@ -183,7 +183,7 @@ session_start();
       </div>
     </div>
     <footer><img src="img/simplon.png"width="30%" height="100px"></footer>
-    <a href="#" id="toTop" style="color:#2E60BB"class="fa fa-chevron-up fa-2x"></a>
+    <a href="#" id="toTop" class="fa fa-chevron-up fa-2x"></a>
     <script src="https://use.fontawesome.com/8d66db2fbe.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
