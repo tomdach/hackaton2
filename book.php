@@ -19,7 +19,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="../index.php"><img style="width:30px;height:22px;border-radius:0" id="logo" src="img/logo.png"></a>
+        <a class="navbar-brand" href="index.php"><img style="width:30px;height:22px;border-radius:0" id="logo" src="img/logo.png"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
