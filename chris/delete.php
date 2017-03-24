@@ -13,7 +13,7 @@ session_start();
   if(!$checkbox) header('location:forum.php');
   else
   {
-    $res = mysqli_query($cnx,"DELETE FROM users WHERE id='$numid'");
+    $res = mysqli_query($cnx1,"DELETE FROM users WHERE id='$numid'");
     header('location:forum.php');
   }
 // }

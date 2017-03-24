@@ -1,5 +1,5 @@
 <?php
 session_start();
-$cnx = mysqli_connect("localhost","root","vidal62","simplon") or
+$cnx1 = mysqli_connect("localhost","root","codeurKiFFeur","simplon") or
 die("error=".mysqli_connect_erno());
 ?>

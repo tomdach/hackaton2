@@ -54,7 +54,9 @@ html, body{
 .sidenav{
 
 }
-
+.well{
+  opacity: 0;
+}
 	form{
 		display: inline-block;
 	}
@@ -81,3 +83,12 @@ html, body{
 @media (max-width: 767px){.fill{
   min-height: auto;
   }}
+  #toTop{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    display: none;
+    color: #00A1D0;
+    outline: none;
+  }

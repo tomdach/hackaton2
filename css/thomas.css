@@ -1,4 +1,4 @@
- body{
+body{
  }
 
  /*#################################IMAGES GROUPE####################*/
@@ -8,20 +8,34 @@
   margin-top:20px;
 
  }
- img{
+ #groupeImg{
  	margin-top: 2%;
  	height: 60%;
  	width: 60%;
  	border-radius: 10px;
   position: relative;
- 
+
 
  }
+
+.divimg{
+ margin-bottom:10px;
+ background-image: url("../chris/img/teeshirt.png");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: contain;
+ color:#00A1D2;
+}
+
+
+h4{
+  padding-top:30px;
+}
   /*#################################IMAGES fin####################*/
 
   /*#################################dubut personne####################*/
-#container{
- 	 height: 300px; 
+#contain{
+ 	 height: 100px;
   	 margin-top: 20px;
   	 padding-left: 20%;
   	 font-size: 15px;
@@ -71,14 +85,14 @@ li{
     border:10px solid transparent;
 
 }
- 
+
 .cube:hover .cube-titre{
     opacity:1;
 }
- 
+
 .cube-titre {
-    
-    
+
+
     opacity:0;
     text-align: center;
          -webkit-transition: all 0.2s ease;
@@ -99,11 +113,11 @@ li{
     margin-right: 20px;
 
 }
- 
+
 .cube1:hover .cube-titre1{
     opacity:1;
 }
- 
+
 .cube-titre1 {
     opacity:0;
     text-align: center;
@@ -124,11 +138,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubez:hover .cube-titrez{
     opacity:1;
 }
- 
+
 .cube-titrez {
      opacity:0;
     text-align: center;
@@ -151,11 +165,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubee:hover .cube-titree{
     opacity:1;
 }
- 
+
 .cube-titree {
      opacity:0;
     text-align: center;
@@ -178,11 +192,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cuber:hover .cube-titrer{
     opacity:1;
 }
- 
+
 .cube-titrer {
      opacity:0;
     text-align: center;
@@ -203,11 +217,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubet:hover .cube-titret{
     opacity:1;
 }
- 
+
 .cube-titret {
      opacity:0;
     text-align: center;
@@ -229,11 +243,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubey:hover .cube-titrey{
     opacity:1;
 }
- 
+
 .cube-titrey {
      opacity:0;
     text-align: center;
@@ -256,11 +270,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubeu:hover .cube-titreu{
     opacity:1;
 }
- 
+
 .cube-titreu {
      opacity:0;
     text-align: center;
@@ -282,11 +296,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubei:hover .cube-titrei{
     opacity:1;
 }
- 
+
 .cube-titrei {
      opacity:0;
     text-align: center;
@@ -307,11 +321,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubeo:hover .cube-titreo{
     opacity:1;
 }
- 
+
 .cube-titreo {
      opacity:0;
     text-align: center;
@@ -332,11 +346,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubep:hover .cube-titrep{
     opacity:1;
 }
- 
+
 .cube-titrep {
      opacity:0;
     text-align: center;
@@ -358,11 +372,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubeq:hover .cube-titreq{
     opacity:1;
 }
- 
+
 .cube-titreq {
      opacity:0;
     text-align: center;
@@ -384,11 +398,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubes:hover .cube-titres{
     opacity:1;
 }
- 
+
 .cube-titres {
      opacity:0;
     text-align: center;
@@ -409,11 +423,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubed:hover .cube-titred{
     opacity:1;
 }
- 
+
 .cube-titred {
      opacity:0;
     text-align: center;
@@ -435,11 +449,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubef:hover .cube-titref{
     opacity:1;
 }
- 
+
 .cube-titref {
      opacity:0;
     text-align: center;
@@ -461,11 +475,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubeg:hover .cube-titreg{
     opacity:1;
 }
- 
+
 .cube-titreg {
      opacity:0;
     text-align: center;
@@ -475,7 +489,7 @@ li{
          -ms-transition: all 0.2s ease;
           -o-transition: all 0.2s ease;
              transition: all 0.2s ease;
-             
+
 }
 
 
@@ -488,11 +502,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubeh:hover .cube-titreh{
     opacity:1;
 }
- 
+
 .cube-titreh {
      opacity:0;
     text-align: center;
@@ -502,7 +516,7 @@ li{
          -ms-transition: all 0.2s ease;
           -o-transition: all 0.2s ease;
              transition: all 0.2s ease;
-             
+
 }
 
   /*#######################################################################*/
@@ -514,11 +528,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubej:hover .cube-titrej{
     opacity:1;
 }
- 
+
 .cube-titrej {
      opacity:0;
     text-align: center;
@@ -528,7 +542,7 @@ li{
          -ms-transition: all 0.2s ease;
           -o-transition: all 0.2s ease;
              transition: all 0.2s ease;
-             
+
 }
 
   /*#######################################################################*/
@@ -540,11 +554,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubek:hover .cube-titrek{
     opacity:1;
 }
- 
+
 .cube-titrek {
      opacity:0;
     text-align: center;
@@ -554,7 +568,7 @@ li{
          -ms-transition: all 0.2s ease;
           -o-transition: all 0.2s ease;
              transition: all 0.2s ease;
-             
+
 }
 
   /*#######################################################################*/
@@ -566,11 +580,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubel:hover .cube-titrel{
     opacity:1;
 }
- 
+
 .cube-titrel {
      opacity:0;
     text-align: center;
@@ -580,7 +594,7 @@ li{
          -ms-transition: all 0.2s ease;
           -o-transition: all 0.2s ease;
              transition: all 0.2s ease;
-             
+
 }
 
   /*#######################################################################*/
@@ -592,11 +606,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubem:hover .cube-titrem{
     opacity:1;
 }
- 
+
 .cube-titrem {
      opacity:0;
     text-align: center;
@@ -606,7 +620,7 @@ li{
          -ms-transition: all 0.2s ease;
           -o-transition: all 0.2s ease;
              transition: all 0.2s ease;
-             
+
 }
 
 
@@ -619,11 +633,11 @@ li{
     border: 10px solid transparent;
     margin-right: 20px;
 }
- 
+
 .cubew:hover .cube-titrew{
     opacity:1;
 }
- 
+
 .cube-titrew {
      opacity:0;
     text-align: center;
@@ -633,13 +647,21 @@ li{
          -ms-transition: all 0.2s ease;
           -o-transition: all 0.2s ease;
              transition: all 0.2s ease;
-             
+
 }
 
 
 /*#######################################################################*/
 
-
+#toTop{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  text-decoration: none;
+  display: none;
+  color: #00A1D0;
+  outline: none;
+}
 
 
 
@@ -668,11 +690,11 @@ li{
     height: 200px;
     border: 1px solid #C8C8C8;
 }
- 
+
 .cube:hover .cube-titre{
     opacity:1;
 }
- 
+
 .cube-titre {
     opacity:0;
     position: absolute;
