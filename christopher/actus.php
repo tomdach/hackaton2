@@ -141,6 +141,59 @@ session_start();
       <span class="sr-only">Next</span>
     </a>
   </div>
+  <div class="container" id="ActuMar">
+    <div class="row jumbotron">
+      <p>16/03/2017 au 23/03/2017 : Hackathon n°2 !</p>
+      <p>06/03/2017 au 14/03/2017 : Révision HTML / CSS, JS + apprentissage de la programmation orientée objet en JS & en PHP !</p>
+      <button type"button" class="btn btn-danger quit">Cliquez pour fermer !</button>
+    </div>
+  </div>
+  <div class="container" id="ActuFeb">
+    <div class="row jumbotron">
+      <p>03/02/2017 : Promo #2 en stage du 6 février au 3 mars, on se retrouve le 6 mars !</p>
+      <p>02/02/2017 : Visite au FABLAB de Calais pour les apprenants de la #promo2. <a data-toggle="modal" data-target=".modalfablab">Photo ici !</a></p>
+      <button type"button" class="btn btn-danger quit">Cliquez pour fermer !</button>
+    </div>
+  </div>
+  <div class="container" id="ActuJan">
+    <div class="row jumbotron">
+      <p>On fini ce mois de Janvier avec un Challenge en PHP, création d'une page <a data-toggle="modal" data-target=".modalChall">administration</a> !</p>
+      <p>25/01/2017 : Accueil de l'association <a data-toggle="modal" data-target=".modalFB">Ferme Beaurepaire</a> afin de leur présenter la formation Simplon !</p>
+      <p>23/01/2017 : Présentation des <a data-toggle="modal" data-target=".modalRegEx">RegEx</a> (Regular Expression) par 2 de nos apprenants !</p>
+      <p>18/01/2017 : Présentation des <a data-toggle="modal" data-target=".modalExpo">exposés</a> sur le thème du Numérique : FrenchTech, EuraTechnologies, Blockchain, Pôle régionale Numérique, les projets de loi pour une république numérique ... </p>
+      <p>09/01/2017 : Après quelques cours, <a data-toggle="modal" data-target=".modalRPHP">révisions</a> + début des variables de sessions (pour les Bases de Données)!</p>
+      <p>03/01/2017 : Nous commençons l'année avec l'apprentissage du <a data-toggle="modal" data-target=".modalPHP">PHP</a> !</p>
+      <button type"button" class="btn btn-danger quit">Cliquez pour fermer !</button>
+    </div>
+  </div>
+  <div class="container" id="ActuDec">
+    <div class="row jumbotron">
+      <p>La promo #2 est en vacances, retour le 2 Janvier 2017 !</p>
+      <p>23/12/2016 : Présentation des projets devant le jury : Photo du projet <a data-toggle="modal" data-target=".modalHG">Gagnant</a> !</p>
+      <p>19/12/2016 au 22/12/2016 : Hackathon n°1 : projet en équipe ! </p>
+      <p>14/12/2016 : Présentation de Trello (outil de gestion de projet) & des commandes avancées de <a data-toggle="modal" data-target=".modalTL">Linux</a> !</p>
+      <p>13/12/2016 : Premier <a data-toggle="modal" data-target=".modalCBS">Challenge</a> en BootStrap !</p>
+      <p>05/12/2016 au 11/12/2016 : En apprenant BootStrap, c'est aussi la semaine de la <a data-toggle="modal" data-target=".modalHOC">Hour Of Code !</a></p>
+      <p>05/12/2016 : Découverte de <a data-toggle="modal" data-target=".modalBS">BootStrap 3 !</a></p>
+      <button type"button" class="btn btn-danger quit">Cliquez pour fermer !</button>
+    </div>
+  </div>
+  <div class="container" id="ActuNov">
+    <div class="row jumbotron">
+      <p>30/11/2016 : Intervention de <a data-toggle="modal" data-target=".modalint2">Sarah</a>, apprenant de la #promo1 !</p>
+      <p>21/11/2016 : Premier Challenge en <a data-toggle="modal" data-target=".modalJS">JS</a> : un StoryTeller !</p>
+      <p>17/11/2016 : Intervention de <a data-toggle="modal" data-target=".modalint1">Samuel</a>, apprenant de la #promo1 !</p>
+      <p>08/11/2016 : Simplon c'est l'entraide entre apprenant : <a data-toggle="modal" data-target=".modalflex">cour sur le flex !</a></p>
+      <p>02/11/2016 : Challenge - Réalisation d'un site vitrine !</p>
+      <button type"button" class="btn btn-danger quit">Cliquez pour fermer !</button>
+    </div>
+  </div>
+  <div class="container" id="ActuOct">
+    <div class="row jumbotron">
+      <p>24/10/2016 : Début de la formation en tant que "prairie" : 2 semaines d'essai & explication de la formation ! <a data-toggle="modal" data-target=".modalbegin">Installation de linux & logiciels</a></p>
+      <button type"button" class="btn btn-danger quit">Cliquez pour fermer !</button>
+    </div>
+  </div>
     <div class="container-fluid col-md-offset-3 col-sm-offset-1" id="btnactu">
       <div class="row">
         <input type="button" class="bton" value="Mars 2017" id="March">
@@ -151,20 +204,6 @@ session_start();
         <input type="button" class="bton" value="Octobre 2016" id="October">
       </div>
     </div>
-    <div class="container" id="ActuMar">
-      <div class="row jumbotron">
-        <p>16/03/2017 au 23/03/2017 : Hackathon n°2 !</p>
-        <p>06/03/2017 au 14/03/2017 : Révision HTML / CSS, JS + apprentissage de la programmation orientée objet en JS & en PHP !</p>
-        <button type"button" class="btn btn-danger quit">Cliquez pour fermer !</button>
-      </div>
-    </div>
-    <div class="container" id="ActuFeb">
-      <div class="row jumbotron">
-        <p>03/02/2017 : Promo #2 en stage du 6 février au 3 mars, on se retrouve le 6 mars !</p>
-        <p>02/02/2017 : Visite au FABLAB de Calais pour les apprenants de la #promo2. <a data-toggle="modal" data-target=".modalfablab">Photo ici !</a></p>
-        <button type"button" class="btn btn-danger quit">Cliquez pour fermer !</button>
-      </div>
-    </div>
     <div class="modal fade modalfablab" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -173,17 +212,6 @@ session_start();
           <a class="btn btn-primary text-center" href="https://fablabcotedopale.com/" target="_blank" style="margin-left:40%;outline:none">En savoir +</a>
           <a class="btn btn-danger text-center" href="#" data-dismiss="modal">Retour</a>
         </div>
-      </div>
-    </div>
-    <div class="container" id="ActuJan">
-      <div class="row jumbotron">
-        <p>On fini ce mois de Janvier avec un Challenge en PHP, création d'une page <a data-toggle="modal" data-target=".modalChall">administration</a> !</p>
-        <p>25/01/2017 : Accueil de l'association <a data-toggle="modal" data-target=".modalFB">Ferme Beaurepaire</a> afin de leur présenter la formation Simplon !</p>
-        <p>23/01/2017 : Présentation des <a data-toggle="modal" data-target=".modalRegEx">RegEx</a> (Regular Expression) par 2 de nos apprenants !</p>
-        <p>18/01/2017 : Présentation des <a data-toggle="modal" data-target=".modalExpo">exposés</a> sur le thème du Numérique : FrenchTech, EuraTechnologies, Blockchain, Pôle régionale Numérique, les projets de loi pour une république numérique ... </p>
-        <p>09/01/2017 : Après quelques cours, <a data-toggle="modal" data-target=".modalRPHP">révisions</a> + début des variables de sessions (pour les Bases de Données)!</p>
-        <p>03/01/2017 : Nous commençons l'année avec l'apprentissage du <a data-toggle="modal" data-target=".modalPHP">PHP</a> !</p>
-        <button type"button" class="btn btn-danger quit">Cliquez pour fermer !</button>
       </div>
     </div>
     <div class="modal fade modalPHP" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -240,18 +268,6 @@ session_start();
         </div>
       </div>
     </div>
-    <div class="container" id="ActuDec">
-      <div class="row jumbotron">
-        <p>La promo #2 est en vacances, retour le 2 Janvier 2017 !</p>
-        <p>23/12/2016 : Présentation des projets devant le jury : Photo du projet <a data-toggle="modal" data-target=".modalHG">Gagnant</a> !</p>
-        <p>19/12/2016 au 22/12/2016 : Hackathon n°1 : projet en équipe ! </p>
-        <p>14/12/2016 : Présentation de Trello (outil de gestion de projet) & des commandes avancées de <a data-toggle="modal" data-target=".modalTL">Linux</a> !</p>
-        <p>13/12/2016 : Premier <a data-toggle="modal" data-target=".modalCBS">Challenge</a> en BootStrap !</p>
-        <p>05/12/2016 au 11/12/2016 : En apprenant BootStrap, c'est aussi la semaine de la <a data-toggle="modal" data-target=".modalHOC">Hour Of Code !</a></p>
-        <p>05/12/2016 : Découverte de <a data-toggle="modal" data-target=".modalBS">BootStrap 3 !</a></p>
-        <button type"button" class="btn btn-danger quit">Cliquez pour fermer !</button>
-      </div>
-    </div>
     <div class="modal fade modalHOC" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -298,16 +314,6 @@ session_start();
         </div>
       </div>
     </div>
-    <div class="container" id="ActuNov">
-      <div class="row jumbotron">
-        <p>30/11/2016 : Intervention de <a data-toggle="modal" data-target=".modalint2">Sarah</a>, apprenant de la #promo1 !</p>
-        <p>21/11/2016 : Premier Challenge en <a data-toggle="modal" data-target=".modalJS">JS</a> : un StoryTeller !</p>
-        <p>17/11/2016 : Intervention de <a data-toggle="modal" data-target=".modalint1">Samuel</a>, apprenant de la #promo1 !</p>
-        <p>08/11/2016 : Simplon c'est l'entraide entre apprenant : <a data-toggle="modal" data-target=".modalflex">cour sur le flex !</a></p>
-        <p>02/11/2016 : Challenge - Réalisation d'un site vitrine !</p>
-        <button type"button" class="btn btn-danger quit">Cliquez pour fermer !</button>
-      </div>
-    </div>
     <div class="modal fade modalflex" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
@@ -342,12 +348,6 @@ session_start();
           <p class="text-center">Intervention de Sarah (#promo 1), qui nous explique son parcours !</p>
           <a class="btn btn-danger text-center" href="#" data-dismiss="modal" style="margin-left:45%">Retour</a>
         </div>
-      </div>
-    </div>
-    <div class="container" id="ActuOct">
-      <div class="row jumbotron">
-        <p>24/10/2016 : Début de la formation en tant que "prairie" : 2 semaines d'essai & explication de la formation ! <a data-toggle="modal" data-target=".modalbegin">Installation de linux & logiciels</a></p>
-        <button type"button" class="btn btn-danger quit">Cliquez pour fermer !</button>
       </div>
     </div>
     <div class="modal fade modalbegin" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
