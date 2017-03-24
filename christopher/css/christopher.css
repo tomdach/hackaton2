@@ -38,6 +38,7 @@ h1{
 }
 #btnactu input{
   color: #2E60BB;
+  height: 40px;
 }
 @media screen and (max-width:600px) {
   #carousel-example-generic{
