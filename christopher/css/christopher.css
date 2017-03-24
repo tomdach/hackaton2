@@ -1,5 +1,5 @@
 #chrisdach{
-  background-color: #00A1D2;
+  background-color: white;
 }
 #FAQ a{
   color: #00A1D2;
@@ -13,7 +13,8 @@
 }
 h1{
   text-align: center;
-  color: #FFF;
+  color: #00A1D2;
+  background-color: black;
 }
 .jumbotron{
   margin-top: 5px;

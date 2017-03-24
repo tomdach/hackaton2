@@ -59,6 +59,7 @@ session_start();
 </nav>
     <div class="container-fluid">
       <div class="row">
+        <div style=" text-align:center;margin-top:30px;" ><img  src="img/simplon.png" width="20%" height="75" /></div>
         <h1>Actualités :</h1>
       </div>
     </div>
